@@ -1,0 +1,35 @@
+{
+  "name": "slots-engine",
+  "version": "1.0.0",
+  "description": "Simple slots engine",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "lint": "eslint ."
+  },
+  "author": "mohit",
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-prettier": "3.1.3",
+    "nodemon": "2.0.3",
+    "prettier": "2.0.5"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2018
+    }
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true
+  }
+}
